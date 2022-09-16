@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+    <meta charset="utf-8"> <!-- charset is used to define the character encoding of doc on the web and the meta tag is used for good practice even though it is the default-->
+    <meta name="viewport" content ="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--link the bootstrap stylsheet before all other stylesheets-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Styles/stylesheet.css"> <!--the rel-defines relationship with a linked file (index.css in this case) and the html document-->
+    <title> google.com </title>
+   </head> 
+</html>
+
+<body>
+    <nav>
+        <div class="container-fluid" id="navigation">       
+                <div class="flex-item nav1">
+                                 <p><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header"  style="color:black">About</a>
+                                 <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US"  style="color:black">Store</a></p>
+                </div>
+                <div class="flex-item nav2">
+                                 <p><a href="https://www.gmail.com"  style="color:black" >Gmail</a>
+                                 <a href="https://www.google.com/imghp?hl=en&ogbl"  style="color:black">Images</a>
+                                 <!--Create a dropdowm menu for the apps-->
+                                 <a href="https://apps.google.com" ><img src="./Images/Icon.png" width="25" height="25" ></a>
+                                 <a href="https://www.gmail.com" ><button type="button" class="btn btn-primary" id="navbutton">Sign in</button></a></p>
+            </div>
+        </div>
+    </nav>
+ <main>
+    <!--google logo-->
+    <img src="https://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif" width="25%" height="6%" id="googleimg">
+    <!--search bar-->
+    <div>
+       <div class="container-fluid" id="searchbar">
+        
+          <img class="magglass" src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/490px-Magnifying_glass_icon.svg.png width="15px" height="15px">
+          <input placeholder="Search Google or type a URL" class="placeholder">
+          <img class="mic" src="./Images/microphone.png" width="15px" height="20px">
+         
+       </div> 
+         <div class="container" id="buttondiv" style="text-align: center;">
+          <!--needs to be fluid-->
+            <button type="button" id="google_search">Google Search</button>
+          <!--make button flow like through options like the one on google-->
+             <button type="button" id="google_search">I'm Feeling Lucky</button>
+         </div>
+        <div>
+         <a href="https://recovertogether.withgoogle.com/?utm_source=google&utm_medium=hpp&utm_campaign=9-15-hpp" style="color: rgb(66, 2, 66);"><p style="font-size: 13px;" class="actionlink">Learn more about National Recovery Month</p></a>
+        </div>
+
+    </div>
+
+    <footer>
+
+      <div class="container-fluid" id="footer">
+         <a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1#!/"><p class="footer-flex">Advertising</p></a>
+         <a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/"><p class="footer-flex">Business</p></a>
+         <a href="https://www.google.com/search/howsearchworks/?fg=1"><p class="footer-flex">How Search Works</p></a>
+         <a href="https://sustainability.google/carbon-free/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=#home"><p id="footer-carbon">Carbon neutral since 2007</p></a>
+         <a href="https://policies.google.com/privacy?hl=en&fg=1"><p class="footer-flex">Privacy</p></a>
+         <a href="https://policies.google.com/terms?hl=en&fg=1"><p class="footer-flex">Terms</p></a>
+         <a href="https://policies.google.com/terms?hl=en&fg=1"><p class="footer-flex">Settings</p></a>
+      </div>
+
+    </footer>
+ </main>
+</body>
